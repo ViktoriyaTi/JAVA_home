@@ -35,18 +35,20 @@ public class TaskFourTwo {
         Scanner iScanner = new Scanner(System.in);
         int scanerNumber = iScanner.nextInt();
         linkedList.offer(scanerNumber);
-        System.out.println("Список,после добавления элемента " + scanerNumber + " в конец списка:" + linkedList);
+        System.out.println("Список,после добавления элемента " + scanerNumber + " в конец списка: " + linkedList);
+        iScanner.close();
 
     }
 
     public static void dequeue(LinkedList<Integer> linkedList) {
         int firstnumber = linkedList.getFirst();
+        System.out.println("Первый элемент списка,который будет удален: " + firstnumber);
         linkedList.removeFirst();
-        System.out.println("Список,после удаления первого элемента " + linkedList);
+        System.out.println("Список,после удаления первого элемента: " + linkedList);
     }
 
     public static void first(LinkedList<Integer> linkedList) {
         int firstnumber = linkedList.getFirst();
-        System.out.println("Первый элемент списка: " + firstnumber);
+        System.out.println("Первый элемент результирующего списка: " + firstnumber);
     }
 }
