@@ -1,9 +1,10 @@
-import java.util.Collections;
-import java.util.LinkedList;
-import java.util.Random;
 
 /* Пусть дан LinkedList с несколькими элементами. 
 Реализуйте метод, который вернет “перевернутый” список */
+
+import java.util.Collections;
+import java.util.LinkedList;
+import java.util.Random;
 
 public class TaskFourOne {
     public static void main(String[] args) {
